@@ -1,7 +1,28 @@
-const students = [
-  { name: "Rahim", marks: 85 },
-  { name: "Karim", marks: 72 },
-  { name: "Hasan", marks: 65 },
-  { name: "Nabil", marks: 45 },
-  { name: "Sakib", marks: 30 }
+function formatUsers(users) {
+  let updateFormat = [];
+  for (const user of users) {
+    updateFormat.push({
+      FullName: user.firstName.concat(' ', user.lastName),
+      Age: user.age
+    })
+  }
+  return updateFormat;
+}
+const users = [
+  {
+    firstName: "Rahim",
+    lastName: "Ahmed",
+    age: 25
+  },
+  {
+    firstName: "Karim",
+    lastName: "Hasan",
+    age: 30
+  },
+  {
+    firstName: "Nabil",
+    lastName: "Islam",
+    age: 22
+  }
 ];
+console.log(formatUsers(users));
