@@ -57,8 +57,8 @@
 
 ## 06 — Utility Functions
 
-16. **Password Strength Checker**
-    Create a function that checks a password and determines whether it is Weak, Medium, or Strong based on its length and content.
+16. **Utility Bill Calculator**
+    Given the number of units consumed, calculate the electricity bill based on different unit ranges and their corresponding rates.
 
 17. **Shipping Cost Calculator**
     Calculate the shipping cost based on package weight and whether the delivery location is inside or outside the city.
