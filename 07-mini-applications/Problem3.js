@@ -114,19 +114,15 @@ console.log(
     })
 );
 
-// Deposit
+
 console.log(deposit("ACC001", 2000));
 
-// Withdraw
-console.log(withdraw("ACC001", 1000));
 
-// Check Balance
+console.log(withdraw("ACC001", 1000));
 console.log(checkBalance("ACC001"));
 
-// Transfer
-console.log(transferMoney("ACC001", "ACC002", 2000));
 
-// Final Balance
+console.log(transferMoney("ACC001", "ACC002", 2000));
 console.log(checkBalance("ACC001"));
 console.log(checkBalance("ACC002"));
 
