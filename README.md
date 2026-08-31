@@ -1,5 +1,5 @@
 # JavaScript — 21 Real-Life Problems Challenge
-
+## 7DAYS
 ## 01 — Shopping & Finance
 
 1. **Shopping Cart Total**
